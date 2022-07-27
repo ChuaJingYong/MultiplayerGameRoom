@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="titleDetails">25:00 - Time to Focus!</title>
+  <!-- <script type="module" src="./firebase.js" defer></script>
+  <script type="module" src="./sandbox.js" defer></script> -->
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- <link rel="stylesheet" href="./chart.css"> -->
+  <link rel="stylesheet" href="./game-style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="icon" id="titleIcon" href="https://cdn-icons-png.flaticon.com/512/877/877712.png" type="image/png">
+</head>
+
+<body>
+
+  <!-- <div class="chartContainer">
+    <canvas id="myChart" width="60vw" height="45vh"></canvas>
+  </div> -->
+
+  <div class="gameContainer">
+
+    <div class="usernameContainer">
+      
+      <input type="text" placeholder="Enter username here" class="username" id="username">
+      <label for="username">Current User</label>
+    </div>
+
+    <div class="sessionContainer">
+      <input type="text" placeholder="Enter session code here" class="sessionCode" id="sessionCode">
+      <a href="#"><div class="create" id="create">Create</div></a>
+      <a href="#"><div class="join" id="join">Join</div></a>
+    </div>
+
+    <div class="gameRoom1">
+      <h1>Game room 1</h1>
+      <a href="#"><div class="red button" id="redButton1">+1</div></a>
+      <div class="red score" id="redScore1">0</div>
+      <div class="blue score" id="blueScore1">0</div>
+      <a href="#"><div class="blue button" id="blueButton1">+1</div></a>
+    </div>
+    
+    <div class="userLogContainer">
+      <div class="userLog" id="userLog"><h1>User Log</h1></div>
+
+      <div class="smallContainer">
+
+        <div class="redUpdateContainer">
+          <div class="redUpdate" id="redUpdate"></div>
+          <p>Red status update</p>
+        </div>
+  
+        <div class="blueUpdateContainer">
+          <div class="blueUpdate" id="blueUpdate"></div>
+          <p>Blue status update</p>
+        </div>
+
+      </div>
+
+    </div>
+    
+
+      
+
+  </div>
+
+  <script type="module" src="./firebase.js"></script>
+  <script type="module" src="./game-controls.js"></script>
+  <!-- <script type="module" src="./sandbox.js"></script> -->
+  <!-- <script type="module" src="./chart.js"></script> -->
+</body>
+</html>
