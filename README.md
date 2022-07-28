@@ -6,8 +6,7 @@
 3. Any changes made by any users in the existing room will be seen and updated live for all other players in the same session.
 
 ## How to get started
-1. Open up a new terminal and run
-###  npm create vite@latest
+1. Open up a new terminal in your desired folder and run "npm create vite@latest"
 2. Give the project name "MultiplayerGame" or any desired project name
 3. Select Vanilla framework and vanilla (avoid typescript)
 4. cd MultiplayerGame (or whatever project name you used)
